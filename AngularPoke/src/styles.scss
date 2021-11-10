@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+$primary: rgb(255, 0, 0);
+$lighter_primary: rgb(255, 98, 98);
+
+html {
+    cursor: url('./assets/img/cursor2.png'), auto;
+}
+
+body {
+    margin: 0;
+    font-family:'Press Start 2P', 'Nunito', 'sans-serif';
+    font-size: 12px;
+    background-color: $lighter_primary;
+}
+
+.container {
+ width: 80%;
+ margin: 0 auto;
+}
+
+header {
+    background-color: $primary;
+    padding: 1em 0;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a.logo {
+        font-weight: bold;
+    }
+
+    nav {
+        float: right;
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+
+            li a {
+                padding: 1em;
+
+                &:hover {
+                    background: darken($primary, 10%);
+                }
+            }
+        }
+    }
+
+    h1 {
+        margin-top: 2em;
+    }
+}

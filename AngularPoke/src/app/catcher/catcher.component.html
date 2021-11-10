@@ -1,0 +1,16 @@
+<div class="receiver">
+    <p class="tutorial">INSERT POKE ID <br> OR <br> POKEMON NAME</p>
+    <input type="text" [(ngModel)]="pokeInfo">
+    <button>
+        <img src="../../assets/img/pokeball.png" alt="">
+    </button>
+
+    <div class="pokecard">
+        <ul>
+            <li>
+                <img src="../../assets/img/pokeball.png" alt="">
+                <p> {{ pokeInfo }} </p>
+            </li>
+        </ul>
+    </div>
+</div>
