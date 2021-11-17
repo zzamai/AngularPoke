@@ -47,4 +47,33 @@ $lighter_primary: rgb(255, 98, 98);
         width: 24px;
     }
 
+    .wrapper {
+        width: 100%;
+        margin-top: 25px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        overscroll-behavior: smooth;
+        height: 280px;
+        // background: yellow;
+    }
+
+    .pokecards {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        padding: 20px;
+        margin: 0px 10px;
+        // background: green;
+    }
+
+    .pokecard {
+        margin: 0px 15px;
+        float: left;
+        // background: blue;
+
+        img {
+            width: 200px;
+        }
+    }
+
 }
